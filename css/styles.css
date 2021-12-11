@@ -1,16 +1,62 @@
-body {
-  background-color: #ffffff;
-  color: #212121;
-}
-
 /* цвет основного текста #212121 */
-/* вторичный цвет №757575 */
+/* вторичный цвет #757575 */
 /* белый №FFFFFF */
 /* акцент #2196F3 */
 /* вторичный цвет фона #F5F4FA */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--secondary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
 .logo {
   color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
 }
-.logo-span {
-  color: #2196f3;
+.logo.span {
+  color: var(--accent-color);
+}
+
+/* Site nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Features */
+.feature-list .title {
+  color: var(--primary-text-color);
+}
+
+/* Examples */
+.section-title {
+  color: var(--primary-text-color);
+}
+.team {
+  color: var(--primary-text-color);
+}
+
+address {
+  color: #ffffff;
+}
+.adress a {
+  color: white;
+  text-decoration: none;
 }
