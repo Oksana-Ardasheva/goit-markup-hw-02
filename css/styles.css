@@ -136,8 +136,7 @@ body {
   text-align: center;
 }
 
-.team-title-people {
-}
+
 
 /* Button */
 .button {
@@ -178,8 +177,6 @@ body {
   line-height: 1.2;
 }
 
-.span-footer {
-}
 address {
   color: #ffffff;
   background-color: var(--first-bg-color);
