@@ -47,6 +47,10 @@ body {
   /* Выровнять еще по центру нужно */
 }
 
+.hero-btn:hover,
+:focus {
+  background-color: #188ce8;
+}
 .list {
   list-style: none;
 }
@@ -107,10 +111,12 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-align: left;
+  text-transform: uppercase;
 }
 
 /* Examples */
-.about-title {
+.about-title,
+.team-title {
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -120,6 +126,9 @@ body {
 
 /* Team */
 .team-title-people {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
   text-align: center;
 }
 .team {
@@ -127,16 +136,15 @@ body {
   background-color: var(--secondary-bg-color);
 }
 .team-text {
+  color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 
-.team-title {
+/* .team-title {
   text-align: center;
-}
-
-
+} */
 
 /* Button */
 .button {
@@ -160,6 +168,19 @@ body {
 .list-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.portfolio-button {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
 }
 
 /* Adress */
@@ -185,6 +206,20 @@ address {
 .adress a {
   color: white;
   text-decoration: none;
+}
+
+a.adress-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+address p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* Portfolio */
