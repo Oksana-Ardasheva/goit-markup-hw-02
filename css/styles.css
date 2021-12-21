@@ -183,6 +183,12 @@ body {
   text-align: center;
 }
 
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
 /* Adress */
 .footer {
   background-color: var(--first-bg-color);
